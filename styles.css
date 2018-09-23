@@ -1,0 +1,185 @@
+@charset "utf-8";
+
+body{
+  height: 100%;
+  margin: 0;
+  font-style: normal;
+  font-variant-ligatures: normal;
+  font-variant-caps: normal;
+  font-variant-numeric: normal;
+  font-variant-east-asian: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-size: 15px;
+  line-height: 1.8;
+  font-family: Lato, sans-serif;
+  color: #777;
+  z-index: -5000;
+}
+html{
+  height: 100%;
+  margin: 0;
+  font-style: normal;
+  font-variant-ligatures: normal;
+  font-variant-caps: normal;
+  font-variant-numeric: normal;
+  font-variant-east-asian: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-size: 15px;
+  line-height: 1.8;
+  font-family: Lato, sans-serif;
+  color: #777;
+}
+.container
+{
+	width: 100%;
+	height: 1000px;
+}
+.parallax-0 {
+  background-image: url("");
+  min-height: 75%;
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax-1 {
+  background-image: url("main.png");
+  min-height: 75%;
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax-2 {
+  background-image: url("Capture.PNG");
+  min-height: 100%;
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+.info
+{
+  color: #777;
+  background-color: white;
+  padding: 25px 80px;
+  text-align: justify;
+  width: 36em;
+  max-width: 100%;
+  float: center;
+  margin: 0 auto;
+}
+h3 
+{
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font-style: normal;
+  font-variant-ligatures: normal;
+  font-variant-caps: normal;
+  font-variant-numeric: normal;
+  font-variant-east-asian: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  font-size: 20px;
+  line-height: normal;
+  font-family: Lato, sans-serif;
+  color: #111;
+}
+@media only screen and (max-device-width: 1024px) {
+    .parallax-1, .parallax-2, .parallax-3 {
+        background-attachment: scroll;
+    }
+}
+.button{
+  border: invisible;
+  color: #111;
+  padding: 30px 10px;
+  text-align: center;
+  display: inline-block;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  cursor: default;
+  font-variant-ligatures: normal;
+  font-variant-caps: normal;
+  font-variant-numeric: normal;
+  font-variant-east-asian: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  font-size: 15px;
+  line-height: normal;
+  font-family: "Raleway", sans-serif;
+  text-decoration:none;
+}
+
+a:link {
+    color:#111;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color:#111;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color:#111;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color:#111;
+    background-color: transparent;
+    text-decoration: none;
+}
+.navbar
+{
+	right: 0;
+	position: fixed;
+	z-index: 1000;
+}
+.txtlink a:link{
+	color:#777;
+    background-color: transparent;
+    text-decoration: none;
+	opacity: .65;
+}
+.txtlink a:visited{
+	color:#777;
+    background-color: transparent;
+    text-decoration: none;
+}
+.txtlink a:active{
+	color:#777;
+    background-color: transparent;
+    text-decoration: none;
+}
+.txtlink a:hover{
+	color:#777;
+    background-color: transparent;
+    text-decoration: none;
+}
