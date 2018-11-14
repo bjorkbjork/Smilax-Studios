@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link href="../styles.css" rel="stylesheet" type="text/css">
+<link rel="apple-touch-icon" sizes="57x57" href="../apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="../apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="../apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="../apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="../apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="../apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="../apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="../apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="../apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="../android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="../favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+<link rel="manifest" href="../manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="../ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<title>DevBlog ACG</title>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-3460725390206260",
+    enable_page_level_ads: true
+  });
+</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-126490428-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-126490428-1');
+</script>
+</head>
+<body>
+	<div class = "container" style = "background-image: test.png; background-color: #383838">
+		<div class = "navbar">
+			<a class = "button" href = "../index">Home</a>
+			<a class = "button" href = "https://www.patreon.com/smilaxstudios" target = "_blank">Support us on Patreon</a>
+<!--			<a class = "button" href = "../join.html">Join Us</a>-->
+			<a class = "button" href = "../contact">Contact Us</a>
+		</div>
+		<div class = "parallax-0" style = "background-color: #383838">
+			<div class = "caption">
+				<span class = "border">ANZAC Cove - Gallipoli</span>
+			</div>
+		</div>
+	  <div id = "UP1" style = "background-color: #383838; padding: 20px;">
+			<div class = "info">
+				<h3 style = "margin-left:25%;text-align: center;float: left">UPDATE</h3><p style="text-align:center;float: right">11/10/18</p><br><br>
+				<p>
+				Alright, so...<br>
+				It may seem like we died, as it's been a whole month without any news, 
+				and we did set the deadline for 4.0 to be 11/11, but we are all schoolkids.
+				More importantly, it's term 4. All of our big exams happen this term, and we kinda
+				took a break in order to study.<br><br>
+				However, it didn't grind to a halt.<br>
+				Over the break, I brought on Zev as our concept artist, and the first drawing
+				of the Allied solider should be done soon.<br>
+				What that means, is that Francois can take that into blender, and create the Allied
+				model. The current place-holder model we have just doesn't look too historic, if you
+				get me.<br>
+				We plan on having multiple classes for the game, but for now it's gonna be one model per team,
+				as it means less work for us, and less money we need to pay for the drawings<br><br>
+				(We can't draw at all, so we definetly need Zev)<br><br>
+				Hope you guys can forgive the wait, as we are going to pick development
+				right back up after our exams are behind us.<br><br>
+				Thanks for the support!<br>
+				The Smilax Team.
+				</p>
+			</div>
+		</div>
+		<div id = "footer" style = "background-color: #383838; padding: 20px;">
+			<div class = "info">
+				<a href = "../blog"><h3>BACK</h3></a>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
